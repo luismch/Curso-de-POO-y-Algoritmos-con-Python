@@ -4,7 +4,7 @@ import random
 def busqueda_lineal(lista, objetivo):
     match = False
 
-    for elemento in lista:
+    for elemento in lista: #0(n)
         if elemento == objetivo:
             match =  True
             break
