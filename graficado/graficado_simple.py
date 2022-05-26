@@ -16,4 +16,3 @@ if __name__ == "__main__":
 
     fig.line(x_vals, y_vals, line_width=2)
     show(fig)
-
